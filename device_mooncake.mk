@@ -9,7 +9,7 @@ DEVICE_PACKAGE_OVERLAYS += device/zte/mooncake/overlay
 
 
 ifeq ($(TARGET_PREBUILT_KERNEL),)
-	LOCAL_KERNEL := device/zte/mooncake/kernel
+	LOCAL_KERNEL := device/zte/mooncake/recovery_kernel_gen1
 else
 	LOCAL_KERNEL := $(TARGET_PREBUILT_KERNEL)
 endif
